@@ -1,13 +1,13 @@
-public class Bolo {
+public class bolo {
 
     int quantidadeAcucar;
     public static void main(String[] args) {
    
-        Bolo boloDeChocolate = new Bolo();
+        bolo boloDeChocolate = new bolo();
 
         boloDeChocolate.quantidadeAcucar = 200;
 
-        Bolo boloDeBaunilha = new Bolo();
+        bolo boloDeBaunilha = new bolo();
 
         boloDeBaunilha.quantidadeAcucar = 150;
 
