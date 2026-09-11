@@ -2,10 +2,9 @@ public class loops {
     public static void main(String[] args){
 
 /*loop for */
-for (int i = 0; i < 5 ; i++) {
-
-            System.out.println(i);
-        }
+for (int i = 0; i < 5 ; i++){
+    System.out.println(i);   
+}
 
 //-------------------------------------------------------------
 
@@ -19,12 +18,12 @@ while (j < 5) {
 }
 //--------------------------------------------------------------
         
-int k = 6;  loop do while 
+int k = 6;  /*loop do while */
 
 do {
     System.out.println(k);
     k++;
-} while (k < 5);*/
+} while (k < 5);
 
 //--------------------------------------------------------------
 
@@ -48,15 +47,16 @@ while (contadorDoces <= 3) {
 //---------------------------------------------------------------
 
 int valor = 10;
-int soma = 0;
+int soma1 = 0;
 int contador = 1;
 
 do{
- soma += contador;
+ soma1 += contador;
  contador++;
 } while (contador <= valor);
 
-System.out.println("A soma dos números até " + valor + " é: " + soma);
+System.out.println("A soma dos números até " + valor + " é: " + soma1);
+
 //---------------------------------------------------------------
 
 int codigoDeSaida = 7;
