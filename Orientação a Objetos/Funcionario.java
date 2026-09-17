@@ -3,18 +3,30 @@ public class Funcionario {
     String nome;
     String cargo;
     int idade;
+    
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
+    };
 
+    //Este é o Construtor
+    Funcionario(String nome, String cargo, int idade) {
+        this.nome = nome;
+        this.cargo = cargo;
+        this.idade = idade;
+    }
     public static void main(String[] args) {
 
-        Funcionario funcionario1 = new Funcionario();
-        funcionario1.nome = "Felipe";
-        funcionario1.cargo = "Desenvolvedor";
-        funcionario1.idade = 32;
+        Funcionario funcionario1 = new Funcionario("Felipe", "Desenvolvedor", 32);
+        //funcionario1.nome = "Felipe";
+        //funcionario1.cargo = "Desenvolvedor";
+        //funcionario1.idade = 32;
 
-        Funcionario funcionario2 = new Funcionario();
-        funcionario2.nome = "Mayara";
-        funcionario2.cargo = "Nails Designer";
-        funcionario2.idade = 27;
+        Funcionario funcionario2 = new Funcionario("Mayara","Nails Designer",27);
+        //funcionario2.nome = "Mayara";
+        //funcionario2.cargo = "Nails Designer";
+        //funcionario2.idade = 27;
 
         System.out.println("Nome: " + funcionario1.nome);
         System.out.println("Cargo: " + funcionario1.cargo);
