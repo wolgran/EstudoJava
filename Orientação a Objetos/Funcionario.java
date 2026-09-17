@@ -4,12 +4,6 @@ public class Funcionario {
     String cargo;
     int idade;
     
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
-    };
-
     //Este é o Construtor
     Funcionario(String nome, String cargo, int idade) {
         this.nome = nome;
